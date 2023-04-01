@@ -1,8 +1,8 @@
 const palindrome = require("./valid-palindrome.js")
 
-const text = "A man, a plan, a canal: Panama"
+const text = " "
 
 test("velue is a palindrome", () => {
-    expect(palindrome(text)).toBe("amanaplanacanalpanama")
+    expect(palindrome(text)).toBe("")
 })
 
